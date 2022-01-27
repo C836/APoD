@@ -6,12 +6,13 @@ main{position: absolute; left: 50%; transform: translateX(-50%); display:flex; f
 #titulo{font-weight: 700; font-size: xx-large;}
 #descrição{margin:1%;}
 #dataP{margin:1.5% 0 0 0}
-    #data{margin: 0.5% 1.5% 1.5% 1%; background-color: rgba(0, 0, 0, 0); border: none ; color: white; width: 120px; text-align: center; font-size: large; flex-basis: 100%;}
+    #data{margin: 0.5% 1.5% 1.5% 1%; background-color: rgba(0, 0, 0, 0); border: none ; color: white; width: 120px; text-align: center; font-size: large; flex-basis: 100%; cursor:pointer}
 #nome{font-weight: 900; font-size:25px;}
 #imgBox{padding: 2% 3% 3% 3%;}
     #imagem, #video{width: 50%; float:left; transition: 0.3s; margin-right: 3%;}
         #peq{width:50%; margin-bottom:0%}
         #gran{width:100%; margin-bottom:3%}
+    #a{cursor:pointer}
     #video{display:none; width:100%; height:500px; margin-bottom: 6%;}
     #explanation{text-align: left;}
 #copyright{margin-bottom: 3%;}
@@ -24,7 +25,7 @@ main{position: absolute; left: 50%; transform: translateX(-50%); display:flex; f
     #nome{font-size:20px; margin: 2%;}
     #imagem, #video{width: 100%; margin-bottom: 6%;}
     #video{height:300px; }
-    #explanation{{font-size: 13px;}}
+    #explanation{font-size: 13px;}
     #copyright{margin-bottom: 6%;}
     #dataP{margin:2% 0 0 0}
 }
