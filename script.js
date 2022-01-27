@@ -35,9 +35,13 @@ function pegar(){
             $('#copyName').text(param.copyright);
             
         if (param.media_type==="video"){
-            console.log(param.url)
             document.getElementById('imagem').style.cssText="display:none"
             document.getElementById('video').style.cssText="display:block"
             document.getElementById('video').src=param.url;
             document.getElementById('background').src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"
+        }
+
+        if (param.media_type==="image"){
+            document.getElementById('imagem').style.cssText="display:block"
+            document.getElementById('video').style.cssText="display:none"
         }}})}
