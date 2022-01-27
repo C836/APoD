@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture of the Day</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="script.js" defer></script> <script>
+        $( function() {
+          $( "#data" ).datepicker();
+        } );
+        </script>
+</head>
+
+<body>
+    <img id=background src="">
+    <main>
+        <p id=titulo>Astronomy Picture of the Day</p>
+        <p id=descrição>Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
+        <p id=nome></p>
+        <label id=dataP>Date: </label>
+        <input type="text" id="data">
+        <div id=imgBox><img id=imagem src="">
+            <p id=explanation></p></div>
+        <p id=copyright>Image credit & copyright: <span id=copyName></span></p>
+    </main>
+</body>
+</html>
