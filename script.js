@@ -27,8 +27,7 @@ function pegar(){
     $.ajax({url:`https://api.nasa.gov/planetary/apod?api_key=Gu0MZYR5dc4VHP5VISzp9eQINX6AibiJsP8BR9Ai&date=${data}`,
         success: function(param) {
         var img=param.url
-        var hdimg=param.hdurl
-            $('#imagem').attr('src', hdimg);
+            $('#imagem').attr('src', img);
             $('#background').attr('src', img);
             $('#nome').text(param.title);
             $('#explanation').text(param.explanation);
